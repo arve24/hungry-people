@@ -1,0 +1,28 @@
+/* ------------------------------ Specialties ------------------------------ */
+
+.specialties {
+  @include section-padding;
+  background: url("../img/specialties/specialties-bg.jpeg") center center/cover
+    no-repeat;
+
+  &__container {
+    @include container-rules;
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  &__text {
+    margin-top: 13px;
+
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* ------------------------------ /Specialties ------------------------------ */

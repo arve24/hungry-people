@@ -1,0 +1,30 @@
+/* ---------------------------------- About --------------------------------- */
+
+.about {
+  @include section-padding;
+
+  &__container {
+    @include container-rules;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 991px) {
+      order: 2;
+    }
+  }
+
+  &__text {
+    margin-top: 13px;
+
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* ---------------------------------- /About --------------------------------- */

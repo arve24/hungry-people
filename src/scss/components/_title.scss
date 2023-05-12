@@ -1,0 +1,16 @@
+.title {
+  font-family: "BannyBoldRound";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.33;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  &_white {
+    color: #ffffff;
+  }
+}

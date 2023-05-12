@@ -1,0 +1,50 @@
+.contact {
+  @include section-padding;
+
+  &__container {
+  }
+  &__title {
+  }
+  &__lead {
+    max-width: 565px;
+    padding-top: 20px;
+  }
+  &__form {
+  }
+}
+
+.contact-form {
+  padding-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 420px));
+  grid-template-rows: 60px 120px 60px;
+  grid-auto-rows: minmax(60px, auto);
+  gap: 10px;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 60px 60px 120px 60px;
+  }
+  &__input {
+    @media (max-width: 767px) {
+      grid-column: 1 / 2;
+    }
+  }
+  &__textarea {
+    grid-column: 1 / 4;
+    padding: 20px;
+    resize: none;
+
+    @media (max-width: 767px) {
+      grid-column: 1 / 2;
+    }
+  }
+  &__button {
+    grid-column: 1 / 4;
+
+    @media (max-width: 767px) {
+      grid-column: 1 / 2;
+    }
+  }
+}

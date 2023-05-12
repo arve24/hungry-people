@@ -1,0 +1,48 @@
+/* --------------------------------- Events --------------------------------- */
+
+.events {
+  @include section-padding;
+  background: url("../img/events/events-bg.jpeg") center center/cover no-repeat;
+
+  &__container {
+    @include container-rules;
+  }
+
+  &__text {
+    position: absolute;
+    bottom: 0px;
+
+    min-height: 80px;
+    width: 100%;
+
+    background: #000000;
+
+    font-family: "BannyBoldRound";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    padding: 0 20px;
+
+    border-radius: 0px 0px 5px 5px;
+
+    &_top {
+      top: 0;
+      bottom: auto;
+
+      border-radius: 5px 5px 0px 0px;
+
+      @media (max-width: 575px) {
+        justify-content: end;
+      }
+    }
+  }
+}
+
+/* --------------------------------- /Events --------------------------------- */

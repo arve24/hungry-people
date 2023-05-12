@@ -1,0 +1,27 @@
+/* ---------------------------------- Base ---------------------------------- */
+body {
+  font-family: var(--font-family), sans-serif;
+  font-weight: var(--font-weight);
+  // Блокировка скролла
+  &._lock {
+    overflow: hidden;
+    touch-action: none;
+  }
+}
+
+section {
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* --------------------------- Свойства контейнера -------------------------- */
+[class*="__container"] {
+  max-width: calc(var(--container-width) + 30px);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ---------------------------------- /Base ---------------------------------- */

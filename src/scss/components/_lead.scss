@@ -1,0 +1,16 @@
+.lead {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.56;
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  color: #000000;
+
+  &_white {
+    color: #ffffff;
+  }
+}

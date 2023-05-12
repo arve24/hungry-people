@@ -1,0 +1,17 @@
+{
+  "name": "Hungry people",
+  "icons": [
+    {
+      "src": "@img/hungry-people-favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "@img/hungry-people-favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+
+  "start_url": "../"
+}
