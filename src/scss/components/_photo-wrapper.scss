@@ -1,39 +1,39 @@
 .photo-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
+    position: relative;
+    display: flex;
+    align-items: center;
 
-  @media (min-width: 992px) {
-    padding-right: 125px;
-  }
-
-  &_left {
-    padding-right: 0;
     @media (min-width: 992px) {
-      padding-left: 125px;
-    }
-  }
-
-  &__img {
-    max-width: 475px;
-    aspect-ratio: 1;
-    filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
-
-    @media (max-width: 1199px) {
-      max-width: 475px;
+        padding-right: 125px;
     }
 
-    @media (max-width: 767px) {
-      max-width: 400px;
+    &_left {
+        @media (min-width: 992px) {
+            padding-left: 125px;
+            padding-right: 0;
+        }
     }
 
-    img {
-      width: 100%;
-      height: 100%;
+    &__img {
+        max-width: 475px;
+        aspect-ratio: 1;
+        filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
 
-      object-fit: cover;
+        @media (max-width: 1199px) {
+            max-width: 475px;
+        }
 
-      border-radius: 5px;
+        @media (max-width: 767px) {
+            max-width: 400px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+
+            border-radius: 5px;
+        }
     }
-  }
 }

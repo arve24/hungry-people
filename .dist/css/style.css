@@ -2042,10 +2042,6 @@ button {
   align-items: center;
 }
 
-.photo-wrapper_left {
-  padding-right: 0;
-}
-
 .photo-wrapper__img {
   max-width: 475px;
   aspect-ratio: 1;
@@ -2117,6 +2113,7 @@ button {
 
   .photo-wrapper_left {
     padding-left: 125px;
+    padding-right: 0;
   }
 }
 
